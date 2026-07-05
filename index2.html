@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parte 2 - Tienda de Stickers</title>
+  <link rel="stylesheet" href="assets/style2.css">
+</head>
+<body>
+
+  <div class="store-container">
+    <h3>Puedes llevar hasta 10 stickers en total</h3>
+    
+    <div class="stickers-grid">
+      <div class="sticker-card">
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt="Git">
+        <input type="number" id="sticker1" value="0" min="0">
+      </div>
+      <div class="sticker-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        <input type="number" id="sticker2" value="0" min="0">
+      </div>
+      <div class="sticker-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Slack">
+        <input type="number" id="sticker3" value="0" min="0">
+      </div>
+    </div>
+
+    <p id="mensaje-resultado">Llevas 0 stickers</p>
+    <button onclick="verificarStickers()">Verificar</button>
+  </div>
+
+  <script src="assets/script2.js"></script>
+</body>
+</html>
